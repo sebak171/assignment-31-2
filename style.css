@@ -1,0 +1,147 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+ }
+ img{
+    max-width: 100%;
+ }
+ /* header section */
+ .first-header .navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+ }
+ .btn-slider{
+    border-radius: 8px;
+    border: none;
+ }
+ .first-header span {
+     background: #6278df;
+     display: inline-block;
+     font-size: 28px; 
+     color: #fff;
+     height: 43px;
+     width: 39px;
+     text-align: center;
+     border-radius: 10px;
+     position: relative;
+     top: 3px;
+ }
+ 
+ .first-menu .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+ }
+ 
+ /* slider-section */
+ .slider-section{
+    background: url(https://i.ibb.co/r0JphkC/mbr-10.jpg) no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+ }
+ .slider-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+    z-index: -1;
+ }
+ .slider-caption h4 {
+     margin-bottom: 35px;
+ }
+ .slider-caption h2 {
+     margin-bottom: 50px;
+    font-size: 46px;
+ }
+ .slider-caption .form-control {
+     padding: 18px 20px;
+ }
+ .slider-caption .btn {
+     background-color: #5ba533;
+     padding: 14px 20px;
+     font-size: 27px;
+     font-weight: 600;
+ }
+ /* .N-counter-item p{
+    font-size: 25px;
+ } */
+ /*  About section */
+ .about-section{
+    background: #f7f9ff;
+ }
+ .about-section-left{
+    margin-top: 120px;
+ }
+ .about-section-left .h1{
+    margin-bottom: 40px;
+    font-size: 35px;
+ }
+ .about-section-left .lead{
+    font-size: 25px;
+    line-height: 2.7rem;
+ }
+ /* feature section */
+ 
+ .feature-item {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+ }
+ .left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+ }
+ .left-test-sec { 
+    width: 60%;
+    padding: 25px;
+ }
+ 
+ .left-img-sec img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+ }
+ /* portfolio section */
+
+ .protpolio{
+    position: relative;
+ }
+ .img-contact-section {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	font-size: 20px;
+   padding: 30px;
+   opacity: 0;
+   height: 100%;
+   visibility: hidden;
+   transition: 1s;
+   transform: scale(20px);
+   background: rgba(207, 200, 200, 0.3);
+   
+   
+}
+.protpolio:hover .img-contact-section{
+   opacity: 1;
+   visibility: visible;
+   z-index: .5;
+   transform: scale(20px);
+}
+
+
+.prising-table-itame ul{}
+.prising-table-itame ul li{
+   list-style: none; 
+   line-height: 40px;
+}
+.prising-table-itame ul li span{
+      width: 24px;
+      display: inline-block;
+      color: #6176e0;
+   
+}
